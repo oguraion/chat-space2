@@ -1,0 +1,198 @@
+
+.header {
+  height: 20px;
+  width:100%;
+  color: white;
+  text-align: center;
+  background-color:#38aef0
+  }
+
+.content{
+  height:100%;
+  width:100%;
+  margin:0;
+  padding:0;
+}
+
+  .left {
+    float:left;
+    width: 300px;
+    height: 100vh;
+    background-color: #2f3e51;
+    bottom:0;
+
+   &__head{
+    display:block;
+    height: 82px;
+    background-color: #253141;
+    margin: 0 ;
+
+     &__box{
+             width: 260px;
+             height: 24px;
+             position:absolute;
+             top:55px;
+             left:20px;
+             margin:0 auto;
+
+               &__username{
+               float: left;
+               font-size:16px;
+               font-weight:bold;
+               color:#ffffff;
+               }
+               &__menu{
+               font-size:16px;
+               float:right;
+               font-weight:bold;
+               color:#ffffff;
+               } 
+     }
+   }
+    &__group{
+      height: 91px;
+      width: 360px;
+
+      &__name{
+        width: 360px;
+        height: 15px;
+        font-weight:bold;
+        margin:20px 20px 5px;
+        color:#ffffff
+      }
+      &__message{
+        width: 360px;
+        height: 11px;
+        font-weight:bold;
+        margin:5px 20px 40px;
+        color:#ffffff
+      }
+   }
+  }
+  .right{
+    float:right;
+    width: calc( 100vw - 300px );
+    background-color: #fafafa;
+
+      &__head{
+        height: 82px;
+        border: solid 1px #eeeeee;
+        margin: 0 ;
+
+         &__info{
+          float:left;
+          width: 360px;
+          height: 82px;
+          padding-left: 40px;
+
+            &__name{
+            line-height:20px;
+            width: 360px;
+            font-size:20px;
+            padding-top:35px;
+            color:#333333
+            }
+            &__member{
+            height: 12px;
+            bottom:0;
+            color:#999999
+            }
+         }
+
+         &__edit{
+           float:right;
+            height: 40px;
+            line-height:40px;
+            text-align:center;
+            vertical-align: middle;
+            border: solid 1px #5cd5e2;
+            font-weight:bold;
+            margin:28px 20px 0px;
+            padding:0px 20px;
+            color:#5cd5e2;
+         }
+       }
+       &__content{
+
+          &__message{
+            height: 78px;
+            width: calc( 100vw - 300px );
+            margin-left:40px;
+            margin-top:46px;
+
+              &__index{
+                height: 16px;
+
+                &__name{
+                  // float:left;
+                  display: inline-block; 
+                  height: 16px;
+                  font-size:16px;
+                  font-weight:bold;
+                  color:#434A54;
+                }
+                &__time{
+                  height: 12px;
+                  font-size:12px;
+                  width:300px;
+                  display: inline-block; 
+                  text-align:left;
+                  padding-left:20px;
+                  color:#999999;
+                  vertical-align: top;
+                }
+              }
+              &__comment{
+                  height: 14px;
+                  font-size:14px;
+                  font-weight:bold;
+                  margin-top:10px;
+                  margin-bottom:40;
+                  color:#434A54;
+              }
+          }
+       }
+
+
+
+      &__bottom{
+            height: 90px;
+            width: calc( 100vw - 300px );
+            background-color: gray;
+            position:absolute;
+            bottom:0;
+
+            &__type{
+              float:left;
+              height: 50px;
+              width: 950px;
+              line-height:50px;
+              padding-left: 10px;
+              margin-left:40px;
+              margin-top:20px;
+              background-color: #fafafa;
+
+              &__pic{
+                font-size:25px;
+                float:right;
+                font-weight:bold;
+                color:black;
+                margin-right:10px;
+                }
+            }
+
+             &__send{
+               float:right;
+               height: 50px;
+               width:calc( 100vw - 1345px );
+               line-height:50px;
+               text-align:center;
+               vertical-align: middle;
+               background-color:#38AEF0;
+               font-weight:bold;
+               margin-top:20px ;
+               margin-right:20px;
+               color:white;
+             }
+      }
+   }

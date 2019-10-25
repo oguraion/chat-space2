@@ -1,0 +1,50 @@
+.header
+  グループを作成しました
+.content
+  .left
+    .left__head
+      .left__head__box
+        .left__head__box__username
+          oguraion
+        .left__head__box__menu
+          =link_to "https://www.facebook.com/" do
+            = fa_icon 'edit' 
+          =link_to "https://www.yahoo.co.jp/" do
+            = fa_icon 'cog'   
+
+    .left__group
+      .left__group__name
+        グループその１
+      .left__group__message
+        hallo ruby
+      .left__group__name
+        グループその２
+      .left__group__message
+        hallo java
+  .right
+    .right__head
+      .right__head__info
+        .right__head__info__name
+          sample
+        .right__head__info__member
+          members: oguraion
+      .right__head__edit
+        edit
+
+    .right__content
+      .right__content__message
+        .right__content__message__index
+          .right__content__message__index__name
+            oguraion
+          .right__content__message__index__time
+            2019/10/23     12:12:12
+        .right__content__message__comment
+          hallo merukari
+
+    .right__bottom
+      .right__bottom__type
+        message here
+        .right__bottom__type__pic
+          = fa_icon 'image' 
+      .right__bottom__send
+        send
