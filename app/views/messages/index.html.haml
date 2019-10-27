@@ -4,15 +4,15 @@
     .header
       .left-header
         .left-header__title
-           =@group.name
+            =@group.name
         %ul.left-header__members
           Member：
-             - @group.users.each do |user|
+            - @group.users.each do |user|
             = user.name
       .right-header
         .right-header__button
-           =link_to "Edit", "/groups/#{@group.id}/edit", class: 'btn'
-    .messages
+          =link_to "Edit", edit_group_path, class: 'btn'
+             .messages
       = render @messages
     .form
       = form_for [@group, @message] do |f|
