@@ -7,11 +7,14 @@
     height: 100px;
     // align-items: center;
     line-height: 90px;
-    padding: 0 20px;
+    
+    
     &__name {
       display: inline-block;
       font-size: $side_header_font;
       font-weight: bold;
+      float: left;
+      padding-left: 20px;
     }
     &__lists {
       display: inline-block;
@@ -22,6 +25,7 @@
       .icon {
         color: $white;
         font-size: $side_header_font;
+        padding-right: 10px;
       }
     }
   }
