@@ -69,5 +69,5 @@ $('.new_message').on('submit', function(e){
       });
     }
   };
-  setInterval(reloadMessages, 5000);
+  setIntervalWithTurbolinks(fetchContent, 10000);
 });
