@@ -4,6 +4,7 @@
     box-sizing: border-box;
     height: 100px;
     padding: 0 40px;
+    background-color: #fff;
     .left-header {
       float: left;
       &__title {
@@ -31,13 +32,11 @@
       margin-top: 28px;
       padding: 0 20px;
       &__button {
-          color: $light_blue;
-          text-decoration: none;
-        }
-          text-decoration: none;
-        }
+        a {text-decoration: none;}
+        a {color: $light_blue;}
       }
     }
+  }
   
   .messages {
     background-color: #FAFAFA;
@@ -104,3 +103,4 @@
       padding: 0 30px;
     }
   }
+}
