@@ -52,7 +52,7 @@ $('.new_message').on('submit', function(e){
         url: "api/messages", 
         type: 'get', 
         dataType: 'json', 
-        data: {id: last_message_id} //飛ばすデータは先ほど取得したlast_message_id。またparamsとして渡すためlast_idとする。
+        data: {id: last_message_id} 
       })
       .done(function (messages) { //通信成功したら、controllerから受け取ったデータ（messages)を引数にとって以下のことを行う
         var insertHTML = ''; //追加するHTMLの入れ物を作る
@@ -69,5 +69,5 @@ $('.new_message').on('submit', function(e){
       });
     }
   };
-  setInterval(reloadMessages, 20000);
+  setInterval(reloadMessages, 25000);
 });
