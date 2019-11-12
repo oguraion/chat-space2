@@ -28,6 +28,45 @@ li {
   object-fit: cover;
 }
 
+.fixed_btn
+{
+  height: 190px;
+  position: fixed;
+  bottom: 400px; 
+  width: 60px;
+  z-index:1;
+  top: 270px;
+  right: 0px;
+  background-color: red;
+  color:white;
+  
+}
+.fixed_btn_b
+{
+  height: 100px;
+  position: fixed;
+  bottom: 400px; 
+  width: 60px;
+  z-index:1;
+  top: 460px;
+  right: 0px;
+  background-color: yellow;
+  color:red;
+  
+}
+.fixed_btn_c
+{
+  height: 50px;
+  position: fixed;
+  bottom: 400px; 
+  width: 60px;
+  z-index:1;
+  top: 560px;
+  right: 0px;
+  background-color: black;
+  color:white;
+  
+}
 
 .chat-group-form {
   width: 980px;
