@@ -20,3 +20,8 @@ $(function(){
     $("html,body").animate({scrollTop:0}, "300");
   });
 });
+$(function(){
+  $('#nav-content a').on('click', function() {
+    $('#nav-input').prop('checked', false);
+  })
+});

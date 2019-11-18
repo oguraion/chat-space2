@@ -149,3 +149,473 @@ li {
     }
   }
 }
+@media screen and (min-width: 767px) {
+  .pc { display: block !important; }
+  .sp { display: none !important; }
+  
+  a{
+    text-decoration: none;
+    color: #5F2201;
+  }
+  
+  
+  
+  .a{
+    display: flex;
+    justify-content:space-between;
+    padding-left: 230px;
+    
+  }
+  .l-header{
+    display: none !important;
+  }
+  .a h1{
+    margin: 0px;
+    padding: 11px 0px;
+    
+  }
+  .c{
+    display: none;
+  }
+  .head-a{
+    list-style: none;
+    margin-top: 31px;
+    font-size: 18px;
+    padding-left: 40px;
+    font-weight: bold;
+    font-family:YuGothic;
+    letter-spacing: 0px;
+    color: #5F2201;
+    opacity: 1;
+    
+  }
+  .head-aa{
+    display: flex;
+    margin-right: 230px;
+  }
+  .head-bb{
+    visibility:hidden;
+  }
+  .btn-a{
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 0;
+    color: #5F2201;
+    opacity: 1;
+    margin-top: 100px;
+    font-family: YuGothic;
+    font-size: 36px;
+  }
+  .photo{
+    width: 100%;
+  }
+  .b{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 100px;
+    padding-left: 230px;
+    padding-right: 230px;
+  }
+  .text-a{
+    position: absolute;
+    list-style: none;
+    line-height: 1.5;
+    
+    letter-spacing: 0;
+    color: #000000;
+    opacity: 1;
+    font-family:YuGothic;
+    font-size: medium;
+  }
+  .box-1{
+    position: relative;
+    width: 420px;
+    height: 166px;
+  }
+  .bigbox-1{
+    background: #FFF3DD 0% 0% no-repeat padding-box;
+    width: 1440px;
+    height: 710px;
+    position: relative;
+    margin-top: 100px;
+  
+  }
+  .btn-b{
+    text-align: center;
+    display: block;
+    font-weight: bold;
+    font-size: 36px;
+    letter-spacing: 0;
+    color: #5F2201;
+    opacity: 1;
+    padding-top: 100px;
+    font-family:YuGothic;
+    padding-bottom: 50px;
+  }
+  .box-4{
+    display: flex;
+    justify-content:space-between;
+    padding-left: 350px;
+    padding-right: 350px;
+    margin-bottom: 30px;
+  }
+  .text-b{
+    display: flex;
+    justify-content:space-between;
+    padding-left: 318px;
+    padding-right: 318px;
+    text-align: center;
+    line-height: 1.5;
+    padding-bottom: 50px;
+  }
+  .bigbtn{
+    
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 3px solid #5F2201;
+    border-radius: 25px;
+    opacity: 1;width: 120px;
+    height: 50px;
+    position: relative;
+  }
+  .bigbtn h1{
+    position: absolute;
+    margin-left: 35px;
+    margin-top: 17px;
+    letter-spacing: 0;
+    color: #5F2201;
+    opacity: 1;
+    font-weight: bold;
+  }
+  .sono-1{
+    margin-left: 660px;
+  }
+  .box-5{
+    width: 300px;
+    height: 96px;
+    text-align: center;
+    margin-top: 102px;
+  }
+  .middle{
+    margin-left: 90px;
+    margin-top: 46px;
+  }
+  .bottom{
+    margin-top: 50px;
+    display: flex;
+    justify-content:space-between;
+    padding-left: 320px;
+    padding-right: 320px;
+  }
+  .gray{
+    width: 1440px;
+    height: 60px;
+    background: #B9B9B9 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-top: 100px;
+    text-align: center;
+    
+    
+  }
+  .gray-box{
+    font-size: 12px;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+    font-family:YuGothic;
+  }
+  .gray-box h1{
+    padding-top: 24px;
+  }
+  }
+  @media screen and (max-width: 479px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
+    .pc { display: none !important; }
+    .sp { display: block !important; }
+  
+  
+  
+  a{
+    text-decoration: none;
+    color: #5F2201;
+  }
+  img { max-width: 100%; }
+  
+  
+  .aa{
+    display: flex;
+    justify-content: space-between;
+  }
+  .aa h1{
+  padding-left: 15px;
+  margin-top: 20px;
+  
+  }
+  .aa header{
+    padding-right: 32px;
+    padding-top: 19px;
+  }
+  .aphoto{
+    margin-top: 20px;
+  }
+  .abtn-a{
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 0;
+    color: #5F2201;
+    opacity: 1;
+    font-family: YuGothic;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+  }
+  .aarea-1{
+    padding: 0 15px;
+  }
+  .abox-1{
+    width: 345px;
+    height: 156px;
+    margin-top: 30px;
+    margin-bottom: 39px;
+    
+  }
+  .atext-a{
+    list-style: none;
+    line-height: 1.8;
+    
+    letter-spacing: 0;
+    color: #000000;
+    opacity: 1;
+    font-family:YuGothic;
+    font-size: 15px;
+  }
+  .abigbox-1{
+    width: 375px;
+    height: 952px;
+    background-color: #FFF3DD;
+  }
+  .abtn-b{
+    margin-left: 159px;
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 0;
+    color: #5F2201;
+    opacity: 1;
+    padding-top: 50px;
+    font-family:YuGothic;
+    padding-bottom: 40px;
+  }
+  .abox-4{
+    padding-left: 63px;
+  }
+  .abox-5{
+    padding-left: 63px;
+  
+  }
+  .atebo{
+    width: 294px;
+    height: 41px;
+    margin-top: 31px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family:YuGothic;
+    font-size: 15px;
+    text-align: center;
+    line-height: 1.8;
+  }
+  .abigbtn{
+    
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 3px solid #5F2201;
+    border-radius: 25px;
+    opacity: 1;width: 120px;
+    height: 50px;
+    position: relative;
+    margin-left: 128px;
+  }
+  .abigbtn h1{
+    position: absolute;
+    margin-left: 35px;
+    margin-top: 17px;
+    letter-spacing: 0;
+    color: #5F2201;
+    opacity: 1;
+    font-weight: bold;
+  }
+  .abottom{
+    margin-left: 38px;
+  }
+  .abox-6{
+    margin-top: 50px;
+    margin-left: 102px;
+  }
+  .abigbtn-2{
+    margin-top: 30px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 3px solid #5F2201;
+    border-radius: 25px;
+    opacity: 1;
+    width: 100px;
+    height: 48px;
+    position: relative;
+    margin-left: 138px;
+  }
+  .abigbtn-2 h1{
+    position: absolute;
+    margin-left: 33px;
+    margin-top: 17px;
+    letter-spacing: 0;
+    color: #5F2201;
+    opacity: 1;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  .agray{
+    width: 375px;
+    height: 30px;
+    background: #B9B9B9 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-top: 66px;
+    
+    
+    
+  }
+  .agray-box{
+    padding-left: 140px;
+    padding-top: 10px;
+  }
+  .agray-box h1{
+   
+    font-size: 12px;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+    font-family:YuGothic;
+  }
+  
+  
+  
+  header {
+    padding:10px;
+    
+  }
+  
+  #nav-drawer {
+    position: relative;
+  }
+  
+  /*チェックボックス等は非表示に*/
+  .nav-unshown {
+    display:none;
+  }
+  
+  /*アイコンのスペース*/
+  #nav-open {
+    display: inline-block;
+    width: 30px;
+    height: 22px;
+    vertical-align: middle;
+  }
+  
+  /*ハンバーガーアイコンをCSSだけで表現*/
+  #nav-open span, #nav-open span:before, #nav-open span:after {
+    position: absolute;
+    height: 3px;/*線の太さ*/
+    width: 20px;/*長さ*/
+    border-radius: 2px;
+    background: #5F2201;
+    display: block;
+    content: '';
+    cursor: pointer;
+  }
+  #nav-open span:before {
+    bottom: -8px;
+  }
+  #nav-open span:after {
+    bottom: -16px;
+  }
+  
+  /*閉じる用の薄黒カバー*/
+  #nav-close {
+    display: none;/*はじめは隠しておく*/
+    position: fixed;
+    z-index: 99;
+    top: 0;/*全体に広がるように*/
+    left: 0;
+    width: 100%;
+    height: 100%;
+   
+    opacity: 0;
+    transition: .3s ease-in-out;
+  }
+  
+  /*中身*/
+  #nav-content {
+    overflow: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;/*最前面に*/
+    width: 100%;/*右側に隙間を作る（閉じるカバーを表示）*/
+    max-width: 375px;/*最大幅（調整してください）*/
+    height: 100%;
+    background: #DDDDDD;
+    transition: .3s ease-in-out;/*滑らかに表示*/
+    -webkit-transform: translateX(-105%);
+    transform: translateX(-105%);/*左に隠しておく*/
+  }
+  .hum{
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 0;
+    color: #5F2201;
+    opacity: 1;
+    font-family: YuGothic;
+    font-size: 25px;
+    margin-top: 120px;
+  }
+  
+  .my-parts {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    margin-left: 310px;
+    margin-top: 22px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+    text-decoration: none;
+    color: #5F2201;
+  }
+  .my-parts span::before,
+  .my-parts span::after {
+    display: block;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 84%;
+    height: 16%;
+    margin: -8% 0 0 -42%;
+    background: rgb(95, 34, 1);
+  }
+  .my-parts span::before {
+    transform: rotate(-45deg);
+  }
+  .my-parts span::after {
+    transform: rotate(45deg);
+  }
+  
+  /*チェックが入ったらもろもろ表示*/
+  #nav-input:checked ~ #nav-close {
+    display: block;/*カバーを表示*/
+    opacity: .5;
+  }
+  
+  #nav-input:checked ~ #nav-content {
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);/*中身を表示（右へスライド）*/
+    box-shadow: 6px 0 25px rgba(0,0,0,.15);
+  }
+  }
